@@ -3,16 +3,8 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center text-center text-white overflow-hidden">
-      <div className="absolute inset-0">
-        <img
-          src="https://picsum.photos/id/12/1920/1080"
-          alt="Logística internacional"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-slate-900 bg-opacity-70"></div>
-      </div>
-      <div className="relative z-10 p-4 max-w-4xl mx-auto">
+    <section id="home" className="h-screen flex items-center justify-center text-center text-white">
+      <div className="p-4 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight mb-4">
           Importação e exportação sob medida, com <span className="text-amber-400">transparência</span>, <span className="text-amber-400">segurança</span> e <span className="text-amber-400">redução de custos.</span>
         </h1>
